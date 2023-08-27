@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://real-lime-squirrel-suit.cyclic.app/assets/${image}`}
+        src={`http://localhost:3001/assets/${image}`}
       />
     </Box>
   );

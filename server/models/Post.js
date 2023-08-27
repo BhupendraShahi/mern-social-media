@@ -30,6 +30,6 @@ const postSchema = mongoose.Schema(
   { timestamps: true }
 );
 
-const Post = mongoose.model("socialPost", postSchema);
+const Post = mongoose.model("socialpost", postSchema);
 
 export default Post;
