@@ -46,7 +46,7 @@ const MyPostWidget = ({ picturePath }) => {
       formData.append("picturePath", image.name);
     }
 
-    const response = await fetch(`https://brainy-dove-jeans.cyclic.app/posts`, {
+    const response = await fetch(`https://real-lime-squirrel-suit.cyclic.app/posts`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}` },
       body: formData,

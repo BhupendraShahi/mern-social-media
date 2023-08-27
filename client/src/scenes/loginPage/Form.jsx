@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://brainy-dove-jeans.cyclic.app/auth/register",
+      "https://real-lime-squirrel-suit.cyclic.app/auth/register",
       {
         method: "POST",
         body: formData,
@@ -79,7 +79,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
-    const loggedInResponse = await fetch("https://brainy-dove-jeans.cyclic.app/auth/login", {
+    const loggedInResponse = await fetch("https://real-lime-squirrel-suit.cyclic.app/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

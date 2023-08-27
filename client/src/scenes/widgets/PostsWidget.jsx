@@ -9,7 +9,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   const token = useSelector((state) => state.token);
 
   const getPosts = async () => {
-    const response = await fetch("https://brainy-dove-jeans.cyclic.app/posts", {
+    const response = await fetch("https://real-lime-squirrel-suit.cyclic.app/posts", {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
@@ -19,7 +19,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
 
   const getUserPosts = async () => {
     const response = await fetch(
-      `https://brainy-dove-jeans.cyclic.app/posts/${userId}/posts`,
+      `https://real-lime-squirrel-suit.cyclic.app/posts/${userId}/posts`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

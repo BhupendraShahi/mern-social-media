@@ -13,7 +13,7 @@ const FriendListWidget = ({ userId }) => {
 
   const getFriends = async () => {
     const response = await fetch(
-      `https://brainy-dove-jeans.cyclic.app/users/${userId}/friends`,
+      `https://real-lime-squirrel-suit.cyclic.app/users/${userId}/friends`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
